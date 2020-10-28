@@ -1,0 +1,152 @@
+/* CSS reset */
+header, body, p, h1, h2, h3, h4, footer{
+    padding: 0; 
+    margin: 0;
+}
+  
+/*box model fix here*/
+*{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box;  box-sizing: border-box; 
+}
+ 
+html{
+   background:rgb(231, 231, 231);
+   font-family: 'Ubuntu', sans-serif;
+   background-color: #c2946f;
+}
+
+div#wrapper{
+    margin-left:170px;
+    margin-right: 150px;
+    max-width: 1100px;
+    box-shadow: 0 0 20px #444;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 1080px;
+    height: 260px;
+    background-image: url("../images/MarriottUtah.jpg");
+    background-repeat: no-repeat;
+    background-size: 1030px 260px; 
+}
+
+/* putting in the top header h1-h2*/
+#company {
+    color: rgb(255, 251, 0);
+    font-size: 3.25rem;
+    padding-top: 20px;
+    text-shadow: 3px 3px rgb(5, 5, 5);
+    text-indent: 20px;
+    margin: 0 170px 30px 10px;
+}
+
+#slogan {
+    color:rgb(255, 251, 0);
+    font-size: 2rem, ;
+    padding-top: 20px;
+    margin-left: 40px;
+    text-shadow: 3px 3px rgb(5, 5, 5);
+    text-indent: 5px;
+}
+
+/* main body stuff*/ 
+main, footer {
+    background-color:rgb(231, 231, 231);
+    clear:both;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: left;
+    color:black;
+    padding-top: 20px;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    color:#048000;
+    margin-top: 17px;
+    margin-bottom: 5px;
+    /*text-indent: 30px;*/
+    font-size: 26px;
+}
+
+.objective {
+    list-style-type: circle;
+    margin-bottom: 40px;
+}
+
+#pageName {
+    display: block;
+    height: 950px;
+    background-color:rgb(231, 231, 231);
+    clear: both;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 150px;
+}
+.hotels {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 741px;
+    max-height: 40px;
+    background-color: #00fc3f;
+    border-radius: 10px; 
+    padding: 10px 0 10px 0;
+}
+
+.hotels a{
+    color: black;
+    height: 46px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-left: 2px solid rgb(231, 231, 231);
+    border-right: 2px solid rgb(231, 231, 231); 
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+.hotels a:hover {
+    color: rgb(251, 255, 21);
+    background-color:#00fc3f;
+}
+
+#picture {
+    width: 350px;
+    height: 180px;
+}
+
+.p p {
+    border: solid 1px rgb(36, 172, 2);
+    border-radius: 3rem;
+    padding: 12px;
+    padding-left: 15px;
+    width: 330px;
+    background-color:  #00fc3f;
+    margin: 8px;
+}
+
+footer{
+    height: 70px;
+    background-color:#552d05;
+    font-size: 14px;
+    text-align: center;
+    max-width: 1920px;
+    padding: 20px;
+    color: white;
+}
